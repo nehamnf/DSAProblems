@@ -1,30 +1,28 @@
 package Easy;
 
-import org.w3c.dom.Node;
-
 class ListNode {
-      int val;
-      ListNode next;
-      ListNode() {}
+    int val;
+    ListNode next;
+    ListNode() {}
 
-      ListNode(int val) {
-          this.val = val;
-      }
-      ListNode(int val, ListNode next) {
-          this.val = val;
-          this.next = next;
-      }
+    ListNode(int val) {
+        this.val = val;
+    }
+    ListNode(int val, ListNode next) {
+        this.val = val;
+        this.next = next;
+    }
 
     @Override
     public String toString() {
         return "Node[ val: " + val + ", address: " + System.identityHashCode(this) +
                 ", next: " + (next != null ? System.identityHashCode(next) : "null") + " ]";
     }
- }
-
+}
 
 public class MergeLinkedList {
     private ListNode head;
+
     public  ListNode creatList(int[] values){
         if(values.length ==0 ){
             return null;
