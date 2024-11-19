@@ -1,4 +1,4 @@
-package LinkedList;
+package linkedlistdatastructure;
 
 class ListNode {
     int val;

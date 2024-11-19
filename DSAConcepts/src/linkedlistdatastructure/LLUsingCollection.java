@@ -1,4 +1,4 @@
-package LinkedList;
+package linkedlistdatastructure;
 
 import java.util.LinkedList;
 import java.util.ListIterator;

@@ -1,4 +1,4 @@
-package LinkedList;
+package linkedlistdatastructure;
 
 class Node {
     String data;
